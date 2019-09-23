@@ -1,0 +1,51 @@
+.LoginStyle {
+    height: 40px;
+    display: flex;
+    border: 5px solid #d9d9d9;
+    background:#E8A87C;
+    padding-left: 500px;
+}
+.Textt {
+    width: 100%;
+}
+.TexttSubmit {
+    margin-top: 30px
+}
+.TextH1 {
+    margin-top: 30px;
+    color:skyblue;
+}
+.mid {
+    width:500px;
+    margin:0 auto;
+}
+@media only screen and (max-width: 472px) {
+    .mid {
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    /* .TexttSubmit {
+        margin: 0 auto;
+        display: table !important;
+    } */
+}
+.animation { 
+    position: relative;
+    left: 100%;
+    top: 0px;
+    -webkit-animation: moveToLeft 10s linear infinite;
+    animation: moveToLeft 10s linear infinite;
+}
+
+@-webkit-keyframes moveToLeft {
+    from {left: 1000%;}
+    to {left: 0%;}
+}
+
+@keyframes moveToLeft {
+    from {left: 100%;}
+    to {left: 0%;}
+}
+

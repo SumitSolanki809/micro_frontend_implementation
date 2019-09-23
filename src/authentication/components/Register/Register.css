@@ -1,0 +1,28 @@
+
+.TexttSubmit {
+    
+    margin-top: 30px;
+}
+.TextH1 {
+    
+    margin-top: 30px;
+    color:skyblue;
+}
+
+.animation { 
+    position: relative;
+    left: 100%;
+    top: 0px;
+    -webkit-animation: moveToLeft 10s linear infinite;
+    animation: moveToLeft 10s linear infinite;
+}
+
+@-webkit-keyframes moveToLeft {
+    from {left: 100%;}
+    to {left: 0%;}
+}
+
+@keyframes moveToLeft {
+    from {left: 100%;}
+    to {left: 0%;}
+}
